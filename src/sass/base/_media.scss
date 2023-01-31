@@ -1,0 +1,36 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        max-height:  550px;
+        &__wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        .header {
+        &__official {
+            display: none;
+        }
+        }
+    }
+}
