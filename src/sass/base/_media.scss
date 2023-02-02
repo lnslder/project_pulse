@@ -1,4 +1,12 @@
 @media (max-width: 1200px) {
+    .carousel {
+        &__inner {
+            width: 60%;
+        }
+        img {
+            width: 100%;
+        }        
+    }
 
 }
 
@@ -6,6 +14,7 @@
     .container {
         padding: 0 20px;
     }
+    
 }
 
 @media (max-width: 767px) {
@@ -28,6 +37,7 @@
             font-size: 20px;
         }
     }
+    
 }
 
 @media (max-width: 575px) {
