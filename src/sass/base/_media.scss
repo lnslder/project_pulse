@@ -7,6 +7,9 @@
             width: 100%;
         }        
     }
+    .response {
+
+    }
 
 }
 
@@ -35,6 +38,12 @@
         }
         &__subheader {
             font-size: 20px;
+        }
+    }
+    .catalog {
+        &-item {
+            margin: 0 auto;
+            margin-bottom: 10px;
         }
     }
     
@@ -78,6 +87,23 @@
     }
     .consultation {
         min-height: 600px;
+    }
+
+    .catalog {
+        &__tab {
+            height: 35px;
+            line-height: 33px;
+            font-size: 10px;
+        }
+    }
+    .response {
+        display: none;
+        
+    }
+    .footer {
+        &__info {
+            width: 100%;
+        }
     }
 }
 @media (max-width: 320px) {

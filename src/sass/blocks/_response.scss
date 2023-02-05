@@ -10,7 +10,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: space-between;
-        width: 880px;
+        max-width: 880px;
     }
     &__item {
         display: flex;
