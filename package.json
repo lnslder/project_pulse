@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "gulp-htmlmin": "^5.0.1",
     "resolve-url": "^0.2.1"
   },
   "devDependencies": {
@@ -8,6 +9,7 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.57.1"

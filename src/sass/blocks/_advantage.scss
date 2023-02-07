@@ -33,5 +33,11 @@
         font-size: 14px;
         font-weight: 300;
         margin-top: 27px;
+        a {
+            color: $main-color;
+            &:hover {
+                color: $main-color;
+            }
+        }
     }
 }

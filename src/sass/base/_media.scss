@@ -22,7 +22,7 @@
 
 @media (max-width: 767px) {
     .promo {
-        max-height:  550px;
+        max-height:  700px;
         .header {
             &__phone {
                 font-size: 15px;
@@ -51,6 +51,7 @@
 
 @media (max-width: 575px) {
     .promo {
+        max-height: 700px;
         .header {
             &__logo {
                 width: 48%;
@@ -61,6 +62,9 @@
         }
         &__icons {
             width: 320px;
+        }
+        .button {
+            margin-top: 40px;
         }
     }
     .title {
@@ -103,6 +107,14 @@
     .footer {
         &__info {
             width: 100%;
+        }
+    }
+    .overlay {
+        .modal {
+            &__close {
+                top: 10px;
+                right: 10px;
+            }
         }
     }
 }
