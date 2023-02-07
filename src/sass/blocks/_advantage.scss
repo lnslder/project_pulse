@@ -21,6 +21,12 @@
     &__item {
         width: 240px;
         text-align: center;
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__descr {
         color: #0d0d0d;

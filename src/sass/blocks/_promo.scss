@@ -40,6 +40,9 @@
             margin: 0 auto;
             margin-bottom: 20px;
         }
+        &_animation {
+            animation: tada 1.5s ease infinite;
+        }
     }
     &__link {
         color: #ffffff;

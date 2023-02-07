@@ -130,30 +130,33 @@
             transform: translateX(0%);
             padding-right: 20px;
             transition: 0.5s all;
-            padding-left: 19px;
-            margin-bottom: 0;
-            list-style-type: none;
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
-            li {
-                color: #555555;
-                font-size: 14px;
-                font-weight: 300;
-                text-align: left;
-                margin-bottom: 20px;
-                position: relative;
-                &::before {
-                    content: '';
-                    position: absolute;
-                    height: 5px;
-                    width: 5px;
-                    background-color: $main-color;
-                    left: -14px;
-                    top: 7px;
+            ul {
+                padding-left: 19px;
+                margin-bottom: 0;
+                list-style-type: none;
+                line-height: 16px;
+                li {
+                    color: #555555;
+                    font-size: 14px;
+                    font-weight: 300;
+                    text-align: left;
+                    margin-bottom: 20px;
+                    position: relative;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        height: 5px;
+                        width: 5px;
+                        background-color: $main-color;
+                        left: -16px;
+                        top: 3px;
+                    }
                 }
-            }
+            } 
         }
         &__back {
             color: $main-color;
